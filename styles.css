@@ -103,3 +103,53 @@ header img {
     line-height: normal;
     letter-spacing: 1px;
 }
+
+/**/
+
+.boxing-intro {
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 0 auto; /* This will center the div */
+    margin-top: 2.75rem;
+    padding: 2rem; /* Adjust padding as needed */
+    background-color: #fff; /* If the div needs a different background */
+    text-align: center;
+}
+
+.class-label {
+    color: #000; 
+    font-family: Rubik;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.5rem; /* Adjust spacing as needed */
+}
+
+.class-title {
+    font-size: 48px; /* Adjust size as needed */
+    font-family: Rubik;
+    font-weight: 600;
+    margin-top: 2.0rem;
+    letter-spacing: 1.6px;
+    color: #000; /* Black, adjust as needed */
+    margin-bottom: 0.4rem; /* Adjust spacing as needed */
+}
+
+.class-description {
+    font-family: Rubik;
+    font-size: 1rem; /* 16px, assuming the base font size is 16px */
+    color: #333; /* Dark gray color, similar to the design */
+    margin-bottom: 1.25rem; /* Adjusted bottom margin for spacing */
+    max-width: 44rem; /* To ensure the text does not stretch too wide */
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    margin-left: auto; /* Center the text block horizontally */
+    margin-right: auto; /* Center the text block horizontally */
+}
+
+.class-detail {
+    font-size: 16px; /* Adjust size as needed */
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #000000; /* Dark gray, adjust as needed */
+}
