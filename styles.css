@@ -153,3 +153,151 @@ header img {
     letter-spacing: 0.4px;
     color: #000000; /* Dark gray, adjust as needed */
 }
+
+.info-section {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    max-width: 75rem; /* Maximum width of the container */
+  }
+  
+  .info-section > div {
+    display: flex;
+    justify-content: space-between; /* Space between the text and image */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    margin-bottom: 2rem;
+
+    
+  }
+  
+  .text-content {
+    flex: 1;
+    padding: 0 2rem; /* Add padding on both sides */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text vertically */
+
+    color: #000;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.05625rem;
+  }
+  
+  .image-content {
+    flex: 0 0 528px; /* Fixed width for image container */
+    height: 307px; /* Fixed height for image container */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .image-content img {
+    padding: 2rem;
+    width: auto;
+    height: 100%;
+    max-width: none; /* Override any max-width */
+  }
+  
+  /* Updated font styles */
+  body, h2, p {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .info-section h2 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-section p {
+    font-size: 18px; /* Paragraph text size */
+    line-height: normal; /* Line height for readability */
+  }
+
+
+/* Other styles remain the same */
+
+/* Specific styles for 'About us' and 'Our facilities' */
+.about-us {
+  margin-top: 5rem;
+  flex-direction: row; /* Text on the left, image on the right for 'About us' */
+  border:1px solid red
+}
+
+.bg {
+  background: #F9F9F9;
+  height: 52.375rem
+}
+
+.our-facilities {
+  flex-direction: row; /* Text on the left, image on the right for 'Our facilities' */
+  padding-top: 2rem;
+  border:1px solid red;
+}
+
+.test-test{
+  padding-left: 3rem;
+}
+
+.what-to-expect {
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto; /* This will center the div */
+  margin-top: 2.75rem;
+  padding: 2rem; /* Adjust padding as needed */
+  background-color: #fff; /* If the div needs a different background */
+  text-align: center;
+}
+
+.expect-title {
+  font-size: 48px; /* Adjust size as needed */
+  font-family: Rubik;
+  font-weight: 600;
+  margin-top: 2.0rem;
+  letter-spacing: 1.6px;
+  color: #000; /* Black, adjust as needed */
+  margin-bottom: 0.4rem; /* Adjust spacing as needed */
+}
+
+.expect-description {
+  font-family: Rubik;
+  font-size: 1rem; /* 16px, assuming the base font size is 16px */
+  color: #333; /* Dark gray color, similar to the design */
+  margin-bottom: 1.25rem; /* Adjusted bottom margin for spacing */
+  max-width: 44rem; /* To ensure the text does not stretch too wide */
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  margin-left: auto; /* Center the text block horizontally */
+  margin-right: auto; /* Center the text block horizontally */
+}
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+    .info-section > div {
+      flex-direction: column;
+    }
+  
+    .text-content, .image-content {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .image-content {
+      height: auto; /* Adjust height accordingly */
+    }
+  
+    .image-content img {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
